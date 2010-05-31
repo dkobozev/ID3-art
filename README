@@ -1,11 +1,15 @@
-# Add Art script
+# ID3 art scripts
 
 ## Description
 
-Quick-and-dirty GUI script to write front cover images to ID3v2 tags in MP3 files. Relies on [Mutagen][1] library.
+Scripts that demonstrate basic usage of the [Mutagen][1] library.
+
+*   add_art.pyw - GUI script to write front cover images to ID3v2 tags in
+    MP3 files.
+*   image_extractor.py - CLI script to dump images from ID3v2 tags.
 
 [1]: http://code.google.com/p/mutagen/
 
 ## Run
 
-Install Mutagen library and run add_art.pyw. 
+Install Mutagen library and run add_art.pyw or image_extractor.py
